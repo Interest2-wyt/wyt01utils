@@ -151,7 +151,7 @@ public class FtpUtils2 {
                 logger.error("FTP server refused connection.");
                 return result;
             }
-            // 转移到FTP服务器目录至指定的目录下
+            // 修改ftp连接从默认的主动模式到被动模式
             ftpClient.enterLocalPassiveMode();
             
             logger.info("更改ftp模式后，切换ftp服务的路径：");
