@@ -50,7 +50,7 @@ public class PropertiesUitl {
      */
     public static void newStaticMethod(){
         try {
-            path = System.getProperty("user.dir").replace("\\", "/") + "/config/test.properties";
+            path = System.getProperty("user.dir").replace("\\", "/") + "/config/config.properties";
 //                path = System.getProperty("user.dir").replace("\\", "/") + "/autoconfig.properties";
             config = new PropertiesConfiguration(path);
         } catch (Exception e) {
