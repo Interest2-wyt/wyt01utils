@@ -281,6 +281,14 @@
             <version>1.10</version>
         </dependency>
 
+        <!-- rabbitmq -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.6.0</version>
+        </dependency>
+
+
 
 
     </dependencies>
